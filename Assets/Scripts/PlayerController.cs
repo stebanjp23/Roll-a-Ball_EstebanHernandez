@@ -57,7 +57,7 @@ public class PlayerController : MonoBehaviour
   void SetCountText()
   {
     countText.text = "Score: " + count.ToString();
-    if (count >= 10)
+    if (count >= 8)
     {
       WinText.SetActive(true); //Si el puntaje es igual o mayor al numero de items se mostrara el mensaje
     }
