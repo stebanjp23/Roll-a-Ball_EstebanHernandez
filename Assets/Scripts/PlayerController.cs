@@ -60,6 +60,7 @@ public class PlayerController : MonoBehaviour
     if (count >= 8)
     {
       WinText.SetActive(true); //Si el puntaje es igual o mayor al numero de items se mostrara el mensaje
+      Destroy(GameObject.FindGameObjectWithTag("Enemy"));
     }
   }
 
@@ -67,14 +68,14 @@ public class PlayerController : MonoBehaviour
   {
     if (collision.gameObject.CompareTag("Enemy"))
     {
-             // Destroy the current object
-       Destroy(gameObject); 
-       // Update the winText to display "You Lose!"
-       WinText.gameObject.SetActive(true);
+      // Destroy the current object
+      Destroy(gameObject);
+      // Update the winText to display "You Lose!"
+      WinText.gameObject.SetActive(true);
       WinText.GetComponent<TextMeshProUGUI>().text = "You Lose!";
     }
-   }
-   
+  }
+
 
 
 }
