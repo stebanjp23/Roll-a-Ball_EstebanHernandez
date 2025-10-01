@@ -66,5 +66,5 @@
     "explorer.fileNesting.patterns": {
         "*.sln": "*.csproj"
     },
-    "dotnet.defaultSolution": "Roll-a-Ball_EstebanHernandez.sln"
+    "dotnet.defaultSolution": "Roll-a-Ball.sln"
 }

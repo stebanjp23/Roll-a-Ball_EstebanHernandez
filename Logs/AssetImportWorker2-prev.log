@@ -1,63 +1,35 @@
-Unity Editor version:    6000.2.4f1 (17550c9bb584)
-Branch:                  6000.2/staging
-Build type:              Release
-Batch mode:              YES
-System name:             Linux
-Distro version:          #79~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug 15 16:54:53 UTC 2
-Kernel version:          6.8.0-79-generic
-Architecture:            x86_64
-Available memory:        31805 MB
-Date:                    2025-09-25T07:10:56Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-alumne" at "2025-09-25T07:10:56.385564Z"
-[SignatureVerifier] Application signature verification not supported on this platform.
-[Licensing::Client] Error: HandshakeResponse reported an error:
-	ResponseCode: 505
-	ResponseStatus: Unsupported protocol version '1.17.2'.
-[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-alumne"
-[Licensing::IpcConnector] LicenseClient-alumne channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-alumne-6000.2.4" at "2025-09-25T07:10:56.386768Z"
-[SignatureVerifier] Application signature verification not supported on this platform.
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.17.2+ff71f16
-  Session Id:              a88ea54186c24202b4b397afa61dac4f
-  Correlation Id:          92a43d03c270f5fb5273c8236c4309f2
-  External correlation Id: 6163620023236088287
-  Machine Id:              PBfslzCGj3XDXh96AHqdGvRuB7g=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-alumne-6000.2.4" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-alumne-6000.2.4-notifications" at "2025-09-25T07:10:56.387656Z"
-[Licensing::Module] Licensing Background thread has ended after 0.00s
-Selected window backend: (null) 
-Desktop is 1920 x 1080 @ 60 Hz
-Initialize udev device monitor.
+Built from '6000.2/staging' branch; Version is '6000.2.4f1 (17550c9bb584) revision 1529100'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-juane" at "2025-09-27T16:51:00.5444496Z"
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'es' Physical Memory: 32694 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-09-27T16:51:00Z
 
 COMMAND LINE ARGUMENTS:
-Unity
+C:\Program Files\Unity\Hub\Editor\6000.2.4f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker2
 -projectPath
-/home/alumne/Roll-a-Ball_EstebanHernandez/Roll-a-Ball
+C:/Users/juane/Desktop/Roll-a-Ball_EstebanHernandez
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-36951
+64123
 -licensingIpc
-LicenseClient-alumne
+LicenseClient-juane
 -job-worker-count
-9
+7
 -background-job-worker-count
 8
 -gc-helper-count
 1
-Successfully changed project path to: /home/alumne/Roll-a-Ball_EstebanHernandez/Roll-a-Ball
-
-(Unity:16255): Gtk-CRITICAL **: 09:10:56.639: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
-
-(Unity:16255): Gtk-CRITICAL **: 09:10:56.642: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
-/home/alumne/Roll-a-Ball_EstebanHernandez/Roll-a-Ball
+-name
+AssetImport
+Successfully changed project path to: C:/Users/juane/Desktop/Roll-a-Ball_EstebanHernandez
+C:/Users/juane/Desktop/Roll-a-Ball_EstebanHernandez
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-allocator-temp-initial-block-size-main=262144"
     "memorysetup-allocator-temp-initial-block-size-worker=262144"
@@ -93,18 +65,29 @@ Successfully changed project path to: /home/alumne/Roll-a-Ball_EstebanHernandez/
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [138300472756992]  Target information:
+Player connection [29116]  Target information:
 
-Player connection [138300472756992]  * "[IP] 192.168.96.79 [Port] 0 [Flags] 2 [Guid] 1593664920 [EditorId] 1593664920 [Version] 1048832 [Id] LinuxEditor(16,192.168.96.79) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [29116]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1135593483 [EditorId] 1135593483 [Version] 1048832 [Id] WindowsEditor(7,Steban) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [138300472756992]  * "[IP] 192.168.122.1 [Port] 0 [Flags] 2 [Guid] 1593664920 [EditorId] 1593664920 [Version] 1048832 [Id] LinuxEditor(16,192.168.96.79) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [29116]  * "[IP] 192.168.1.73 [Port] 0 [Flags] 2 [Guid] 1135593483 [EditorId] 1135593483 [Version] 1048832 [Id] WindowsEditor(7,Steban) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [138300472756992] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [138300472756992] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 9
+Player connection [29116] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [29116] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 26480, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.3+a4e98f1
+  Session Id:              278f56470e8547f1adaacda0de874e37
+  Correlation Id:          e1a68c070ed79ddcab9fc6a5d159e5eb
+  External correlation Id: 9191086895136344917
+  Machine Id:              fySAlWNorpS81yXkV6kDQKRMN+4=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-juane" (connect: 0.00s, validation: 0.00s, handshake: 0.04s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-juane-notifications" at "2025-09-27T16:51:00.5905035Z"
+[Licensing::Module] Licensing Background thread has ended after 0.05s
 Library Redirect Path: Library/
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
@@ -112,73 +95,61 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 0,73 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
+Refreshing native plugins compatible for Editor in 3.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.2.4f1 (17550c9bb584)
-[Subsystems] Discovering subsystems at path /home/alumne/Unity/Hub/Editor/6000.2.4f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /home/alumne/Roll-a-Ball_EstebanHernandez/Roll-a-Ball/Assets
-kGfxThreadingModeNonThreaded is not supported on OpenGL Core. Reverting to kGfxThreadingModeDirect instead.
-GfxDevice: creating device client; kGfxThreadingModeDirect
-GLX Extensions: GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_visual_info GLX_EXT_visual_rating GLX_EXT_import_context GLX_SGI_video_sync GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGI_swap_control GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_buffer_age GLX_ARB_create_context GLX_ARB_create_context_profile GLX_NV_float_buffer GLX_ARB_fbconfig_float GLX_EXT_texture_from_pixmap GLX_EXT_framebuffer_sRGB GLX_NV_copy_image GLX_EXT_create_context_es_profile GLX_EXT_create_context_es2_profile GLX_ARB_create_context_no_error GLX_ARB_create_context_robustness GLX_NV_delay_before_swap GLX_EXT_stereo_tree GLX_ARB_context_flush_control GLX_NV_robustness_video_memory_purge GLX_NV_multigpu_context 
-Renderer: NVIDIA GeForce GTX 1660 SUPER/PCIe/SSE2
-Vendor:   NVIDIA Corporation
-Version:  4.5.0 NVIDIA 535.247.01
-GLES:     0
- GL_AMD_multi_draw_indirect GL_AMD_seamless_cubemap_per_texture GL_AMD_vertex_shader_viewport_index GL_AMD_vertex_shader_layer GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_conservative_depth GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragmen
-t_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoki
-ng_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_locations GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_clamp GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_A
-RB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_t
-ranspose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters 
-GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_multiview_texture_multisample GL_EXT_multiview_timer_query GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_polygon_offset_clamp GL_EXT_post_depth_coverage GL_EXT_provoking_vertex GL_EXT_raster_multisample GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_shader_objects GL_EXT_separate_specular_color GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shadow_funcs GL_EXT_sparse_texture2 GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_lod G
-L_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback2 GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_EXT_x11_sync_object GL_EXT_import_sync_object GL_NV_robustness_video_memory_purge GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat GL_KHR_context_flush_control GL_KHR_debug GL_EXT_memory_object GL_EXT_memory_object_fd GL_NV_memory_object_sparse GL_KHR_parallel_shader_compile GL_KHR_no_error GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_EXT_semaphore GL_EXT_semaphore_fd GL_NV_timeline_semaphore GL_KHR_shader_subgroup GL_KTX_buffer_region GL_NV_alpha_to_coverage_dither_control GL_NV_bindless_multi_draw_indirect GL_NV_bindless_multi_draw_indirect_count GL_NV_bindless_texture GL_NV_blend_equation_advanced GL_NV_
-blend_equation_advanced_coherent GL_NVX_blend_equation_advanced_multi_draw_buffers GL_NV_blend_minmax_factor GL_NV_blend_square GL_NV_clip_space_w_scaling GL_NV_command_list GL_NV_compute_program5 GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_conservative_raster GL_NV_conservative_raster_dilate GL_NV_conservative_raster_pre_snap GL_NV_conservative_raster_pre_snap_triangles GL_NV_conservative_raster_underestimation GL_NV_copy_depth_to_color GL_NV_copy_image GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_draw_texture GL_NV_draw_vulkan_image GL_NV_ES1_1_compatibility GL_NV_ES3_1_compatibility GL_NV_explicit_multisample GL_NV_feature_query GL_NV_fence GL_NV_fill_rectangle GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_coverage_to_color GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2 GL_NV_fragment_shader_barycentric GL_NV_fragment_shader_interlock GL_NV_framebuffer_mixed_samples GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_geometry_sha
-der_passthrough GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_memory_attachment GL_NV_mesh_shader GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_representative_fragment_test GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_scissor_exclusive GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object GL_NV_shader_subgroup_partitioned GL_NV_shader_texture
-_footprint GL_NV_shading_rate_image GL_NV_stereo_view_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_uniform_buffer_std430_layout GL_NV_vdpau_interop GL_NV_vdpau_interop2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NV_gpu_multicast GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OVR_multiview GL_OVR
-_multiview2 GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
-OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1034949336
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/juane/Desktop/Roll-a-Ball_EstebanHernandez/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        NVIDIA GeForce RTX 3060 (ID=0x2487)
+    Vendor:          NVIDIA
+    VRAM:            12110 MB
+    App VRAM Budget: 11342 MB
+    Driver:          32.0.15.6094
 Initialize mono
-Mono path[0] = '/home/alumne/Unity/Hub/Editor/6000.2.4f1/Editor/Data/Managed'
-Mono path[1] = '/home/alumne/Unity/Hub/Editor/6000.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
-Mono config path = '/home/alumne/Unity/Hub/Editor/6000.2.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56255
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56160
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /home/alumne/Unity/Hub/Editor/6000.2.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: /home/alumne/Unity/Hub/Editor/6000.2.4f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0,000819 seconds.
-- Loaded All Assemblies, in  0,226 seconds
-Native extension for LinuxStandalone target not found
-Native extension for WebGL target not found
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001948 seconds.
+- Loaded All Assemblies, in  0.359 seconds
+Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0,241 seconds
-Domain Reload Profiling: 467ms
-	BeginReloadAssembly (52ms)
+- Finished resetting the current domain, in  0.314 seconds
+Domain Reload Profiling: 670ms
+	BeginReloadAssembly (116ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (109ms)
-		LoadAssemblies (51ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (152ms)
+		LoadAssemblies (113ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (107ms)
-			TypeCache.Refresh (106ms)
-				TypeCache.ScanAssembly (97ms)
+		AnalyzeDomain (148ms)
+			TypeCache.Refresh (146ms)
+				TypeCache.ScanAssembly (133ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (242ms)
+	FinalizeReload (314ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (210ms)
+		SetupLoadedEditorAssemblies (270ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (38ms)
+			InitializePlatformSupportModulesInManaged (45ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (45ms)
-			ProcessInitializeOnLoadAttributes (81ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (114ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -193,723 +164,328 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0,441 seconds
-Refreshing native plugins compatible for Editor in 0,18 ms, found 0 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for WebGL target not found
+- Loaded All Assemblies, in  0.742 seconds
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0,454 seconds
-Domain Reload Profiling: 894ms
-	BeginReloadAssembly (90ms)
+- Finished resetting the current domain, in  0.830 seconds
+Domain Reload Profiling: 1564ms
+	BeginReloadAssembly (176ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (5ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (292ms)
-		LoadAssemblies (167ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (477ms)
+		LoadAssemblies (359ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (160ms)
-			TypeCache.Refresh (119ms)
-				TypeCache.ScanAssembly (109ms)
-			BuildScriptInfoCaches (31ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (455ms)
+		AnalyzeDomain (214ms)
+			TypeCache.Refresh (159ms)
+				TypeCache.ScanAssembly (145ms)
+			BuildScriptInfoCaches (43ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (831ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (333ms)
+		SetupLoadedEditorAssemblies (633ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (71ms)
-			ProcessInitializeOnLoadAttributes (224ms)
-			ProcessInitializeOnLoadMethodAttributes (32ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (130ms)
+			ProcessInitializeOnLoadAttributes (426ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
-AutoLocale: current locale expects 'C' but got 'ca_ES.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6101 unused Assets / (4.5 MB). Loaded Objects now: 6835.
-Memory consumption went from 141.5 MB to 137.0 MB.
-Total: 8.294870 ms (FindLiveObjects: 0.453525 ms CreateObjectMapping: 0.493619 ms MarkObjects: 4.737936 ms  DeleteObjects: 2.608923 ms)
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6101 unused Assets / (5.1 MB). Loaded Objects now: 6811.
+Memory consumption went from 132.2 MB to 127.1 MB.
+Total: 9.693400 ms (FindLiveObjects: 1.115600 ms CreateObjectMapping: 0.481900 ms MarkObjects: 5.464100 ms  DeleteObjects: 2.630800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4330.013516 seconds.
-  path: Assets/Texturas/ADG_Textures/ground_vol1/ground13/ground13.mat
-  artifactKey: Guid(2785d3e261e963c4793fc5970256592e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/ADG_Textures/ground_vol1/ground13/ground13.mat using Guid(2785d3e261e963c4793fc5970256592e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a589c4dcec19a38018220f09af8f5b9') in 0.361635176 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 82.034732 seconds.
-  path: Assets/Texturas/ADG_Textures/ground_vol1/ground2/ground2_Ambient_Occlusion.tga
-  artifactKey: Guid(cbfdc0c455424e84c94f238e9b9382ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/ADG_Textures/ground_vol1/ground2/ground2_Ambient_Occlusion.tga using Guid(cbfdc0c455424e84c94f238e9b9382ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd36fac1c3afff85564ad46da7d8a2985') in 0.010702267 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.021805 seconds.
-  path: Assets/Texturas/ADG_Textures/ground_vol1/ground2/ground2_Height.tga
-  artifactKey: Guid(cb74fa1f447a9ed4baf1d1bce2326844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/ADG_Textures/ground_vol1/ground2/ground2_Height.tga using Guid(cb74fa1f447a9ed4baf1d1bce2326844) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62b92f7b45a515661a1c9ce0396b7cea') in 0.004994553 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.242694 seconds.
-  path: Assets/Texturas/ADG_Textures/ground_vol1/ground3
-  artifactKey: Guid(b22288eee5508544f802000ed94bcf19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/ADG_Textures/ground_vol1/ground3 using Guid(b22288eee5508544f802000ed94bcf19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8bfe496924fdc93df1996fb2840312c9') in 0.00029781 seconds
+  Time since last request: 1027.101934 seconds.
+  path: Assets/Rolling_Balls-Sci-fi_Pack
+  artifactKey: Guid(d1bef4a5dc00ea94bba5efe0575e0345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rolling_Balls-Sci-fi_Pack using Guid(d1bef4a5dc00ea94bba5efe0575e0345) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a50fde07c340cc6f1426fba16297f03') in 0.0076004 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.089127 seconds.
-  path: Assets/Texturas/ADG_Textures/ground_vol1/ground3/ground3_Ambient_Occlusion.tga
-  artifactKey: Guid(ffe490c725fffcb479786a6e534250b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/ADG_Textures/ground_vol1/ground3/ground3_Ambient_Occlusion.tga using Guid(ffe490c725fffcb479786a6e534250b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9bf3e1e980eafc87cf8decb516e8767') in 0.00634689 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Texturas/ADG_Textures/ground_vol1/ground3/ground3_Metallic.tga
-  artifactKey: Guid(a55658d42f533714ebdf91ad5706ee74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/ADG_Textures/ground_vol1/ground3/ground3_Metallic.tga using Guid(a55658d42f533714ebdf91ad5706ee74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0258c2c3755b272916f51cfe9b3bc32a') in 0.003841272 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.215222 seconds.
-  path: Assets/Texturas/ADG_Textures/ground_vol1/ground9
-  artifactKey: Guid(27900da124cc2b546a02af38f99bc619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/ADG_Textures/ground_vol1/ground9 using Guid(27900da124cc2b546a02af38f99bc619) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3bc9394c101b34b75c5f9853f9ebe348') in 0.000300536 seconds
+  Time since last request: 1.138963 seconds.
+  path: Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build
+  artifactKey: Guid(2e11536ec810cd244901bc1e78109714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build using Guid(2e11536ec810cd244901bc1e78109714) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f48bfdb1426d68a6c5c10d21b19b7ff0') in 0.0006047 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.106345 seconds.
-  path: Assets/Texturas/ADG_Textures/ground_vol1/ground9/ground9_Ambient_Occlusion.tga
-  artifactKey: Guid(60662f4bc5917c94986801d53f5ee99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/ADG_Textures/ground_vol1/ground9/ground9_Ambient_Occlusion.tga using Guid(60662f4bc5917c94986801d53f5ee99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cdd77980dd0ac4a4d9c3df16ca217651') in 0.007151401 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Texturas/ADG_Textures/ground_vol1/ground9/ground9_Normal.tga
-  artifactKey: Guid(1868fa7be7ed59c45927c480c110c8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/ADG_Textures/ground_vol1/ground9/ground9_Normal.tga using Guid(1868fa7be7ed59c45927c480c110c8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c263072e7074b9437fcfe91ebc14d1c9') in 0.014303194 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.112660 seconds.
-  path: Assets/Texturas/ADG_Textures/ground_vol1/ground10
-  artifactKey: Guid(b63d32e4af1b7404d9d11d0bbdd73594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/ADG_Textures/ground_vol1/ground10 using Guid(b63d32e4af1b7404d9d11d0bbdd73594) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25e0de23c3064944dc7a0cba72bff6e3') in 0.00032252 seconds
+  Time since last request: 0.706208 seconds.
+  path: Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures
+  artifactKey: Guid(bcd20753f04a9f04fbf9fe172d5ed867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures using Guid(bcd20753f04a9f04fbf9fe172d5ed867) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07f726cc7623c6d69e9fe0d4266024a1') in 0.0012935 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.066550 seconds.
-  path: Assets/Texturas/ADG_Textures/ground_vol1/ground10/ground10_Ambient_Occlusion.tga
-  artifactKey: Guid(24681add3f24f044daca3cc8a13e6395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/ADG_Textures/ground_vol1/ground10/ground10_Ambient_Occlusion.tga using Guid(24681add3f24f044daca3cc8a13e6395) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dfcdd20345db9e0864f26b60e3c47481') in 0.005985964 seconds
+  Time since last request: 0.005627 seconds.
+  path: Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_BaseMap_1.png
+  artifactKey: Guid(ca1116813d9be7c48a768a3d0250e9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_BaseMap_1.png using Guid(ca1116813d9be7c48a768a3d0250e9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84ba093e4c243dbd526ebb6e69e56788') in 0.1154814 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.731620 seconds.
-  path: Assets/Texturas/ADG_Textures/ground_vol1/ground13
-  artifactKey: Guid(0de6adb2730bebd4ab67bd3dd20089f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/ADG_Textures/ground_vol1/ground13 using Guid(0de6adb2730bebd4ab67bd3dd20089f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b40435c6c98db2b9230139ae831d352d') in 0.000303387 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.091414 seconds.
-  path: Assets/Texturas/ADG_Textures/ground_vol1/ground13/ground13_Ambient_Occlusion.tga
-  artifactKey: Guid(2a99c17849836234e94e4e4b040bc253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/ADG_Textures/ground_vol1/ground13/ground13_Ambient_Occlusion.tga using Guid(2a99c17849836234e94e4e4b040bc253) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '126436503a9b4c3a18ad2af98f7583ee') in 0.005074752 seconds
+  Time since last request: 0.000053 seconds.
+  path: Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_BaseMap_132.png
+  artifactKey: Guid(04093c6dd3fe1884c99814e9bb93dbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_BaseMap_132.png using Guid(04093c6dd3fe1884c99814e9bb93dbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c8b6e31d26a2029f0d64367aa2417c0') in 0.011492 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Texturas/ADG_Textures/ground_vol1/ground13/ground13_Normal.tga
-  artifactKey: Guid(b2fb145365da39b43bb38b3d3d3db1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/ADG_Textures/ground_vol1/ground13/ground13_Normal.tga using Guid(b2fb145365da39b43bb38b3d3d3db1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57d873b13dd9559425d8d15e09d12212') in 0.006534502 seconds
+  Time since last request: 0.000029 seconds.
+  path: Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_NormalMap_62.png
+  artifactKey: Guid(b9fab9979f6381347bf9667974b73077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_NormalMap_62.png using Guid(b9fab9979f6381347bf9667974b73077) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd67e73a412da431e12bbd78f704e6b65') in 0.0671363 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.758085 seconds.
-  path: Assets/Texturas/ADG_Textures/ground_vol1/ground14
-  artifactKey: Guid(12e514c7bcbe50f45aa7aa0d2985dddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/ADG_Textures/ground_vol1/ground14 using Guid(12e514c7bcbe50f45aa7aa0d2985dddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ffa4e3a2d8843562a9db1eae1fc568cf') in 0.000293034 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.971713 seconds.
-  path: Assets/Texturas/ADG_Textures/ground_vol1/ground14/ground14_Ambient_Occlusion.tga
-  artifactKey: Guid(573c7bc99dcbc0f4ea88b3ac63b42402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/ADG_Textures/ground_vol1/ground14/ground14_Ambient_Occlusion.tga using Guid(573c7bc99dcbc0f4ea88b3ac63b42402) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe9f8452a98fa0d506c0a9ca130026a6') in 0.006093878 seconds
+  Time since last request: 0.000016 seconds.
+  path: Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_NormalMap_6.png
+  artifactKey: Guid(628e789911d66e845a746fb85e7a73e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_NormalMap_6.png using Guid(628e789911d66e845a746fb85e7a73e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce2fa67241403dd9ee694e8deea3914b') in 0.0162344 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Texturas/ADG_Textures/ground_vol1/ground14/ground14_Metallic.tga
-  artifactKey: Guid(65f04b330297cc244aaa78ae4015f466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/ADG_Textures/ground_vol1/ground14/ground14_Metallic.tga using Guid(65f04b330297cc244aaa78ae4015f466) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '926c77b585dd8b23509b453365acfcc6') in 0.006240644 seconds
+  Time since last request: 0.000025 seconds.
+  path: Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_NormalMap_76.png
+  artifactKey: Guid(3380203bcaf0afc49adef1a50b56bce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_NormalMap_76.png using Guid(3380203bcaf0afc49adef1a50b56bce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58b14b8c1a5d8a7ca3c36b70dc454fa6') in 0.0117351 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.943287 seconds.
-  path: Assets/Texturas/ADG_Textures
-  artifactKey: Guid(7f30d496105f563acb621e5dfbd38d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/ADG_Textures using Guid(7f30d496105f563acb621e5dfbd38d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbc14f3cb79d9613bb4db4abd33d6d8d') in 0.000297442 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 240.784351 seconds.
-  path: Assets/Texturas/QS/QS-Textures-Grass-v1
-  artifactKey: Guid(a494362051271d046a0df533cf24475f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/QS/QS-Textures-Grass-v1 using Guid(a494362051271d046a0df533cf24475f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5e3e81e5ff286259f85bc718a2b703e') in 0.000293791 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.702817 seconds.
-  path: Assets/Texturas/QS/QS-Textures-Grass-v1/Materials
-  artifactKey: Guid(fe0a0f0b9a2bf684e870685423c054a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/QS/QS-Textures-Grass-v1/Materials using Guid(fe0a0f0b9a2bf684e870685423c054a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cfe6d2b70394a1fac7879908193b92d6') in 0.000293731 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.075756 seconds.
-  path: Assets/Texturas/QS/QS-Textures-Grass-v1/Materials/QS-GRASS-1.1.mat
-  artifactKey: Guid(4167230534a52bb4d9073a435cafff7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/QS/QS-Textures-Grass-v1/Materials/QS-GRASS-1.1.mat using Guid(4167230534a52bb4d9073a435cafff7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70be0a75260b054a525e9ceb593be3c7') in 0.005282923 seconds
+  Time since last request: 0.000033 seconds.
+  path: Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_BaseMap_116.png
+  artifactKey: Guid(0ccc3c6184739e64babb595f63bdf26f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_BaseMap_116.png using Guid(0ccc3c6184739e64babb595f63bdf26f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b55afbf647b18bb14b590eb1404b071e') in 0.0097823 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.027744 seconds.
-  path: Assets/Texturas/QS/QS-Textures-Grass-v1/Materials/QS-GRASS-3.1.mat
-  artifactKey: Guid(5f208e503b1f2c04aad5dc65bb51eef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/QS/QS-Textures-Grass-v1/Materials/QS-GRASS-3.1.mat using Guid(5f208e503b1f2c04aad5dc65bb51eef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60df7d3c28081cc6f358491c4302b7c6') in 0.004257635 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.028241 seconds.
-  path: Assets/Texturas/QS/QS-Textures-Grass-v1/Materials/QS-GRASS-9.1.mat
-  artifactKey: Guid(78ebcdd3e5c01fc4a9903952d644cbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/QS/QS-Textures-Grass-v1/Materials/QS-GRASS-9.1.mat using Guid(78ebcdd3e5c01fc4a9903952d644cbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34d370f1d675be5e5c7f84ec90bb57d9') in 0.004445842 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Texturas/QS/QS-Textures-Grass-v1/Materials/QS-GRASS-10.1.mat
-  artifactKey: Guid(195886598c796944d9b61f55745b3635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/QS/QS-Textures-Grass-v1/Materials/QS-GRASS-10.1.mat using Guid(195886598c796944d9b61f55745b3635) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eaf4145ac56933db306ba7b775b53e07') in 0.005009473 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Texturas/QS/QS-Textures-Grass-v1/Materials/QS-GRASS-6.1.mat
-  artifactKey: Guid(4c020fa31514bcc4d99927874da69cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/QS/QS-Textures-Grass-v1/Materials/QS-GRASS-6.1.mat using Guid(4c020fa31514bcc4d99927874da69cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e054c58546ff703c26f6ce299d67bf08') in 0.004982288 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.357431 seconds.
-  path: Assets/Texturas/QS/QS-Textures-Grass-v1/Textures/QS-GRASS-2.1.png
-  artifactKey: Guid(9258a574148383549ac8f525404331bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/QS/QS-Textures-Grass-v1/Textures/QS-GRASS-2.1.png using Guid(9258a574148383549ac8f525404331bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bcafffd99ba15ca68d817d0920c16f2d') in 0.003552437 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.028015 seconds.
-  path: Assets/Texturas/QS/QS-Textures-Grass-v1/Textures/QS-GRASS-8.1.png
-  artifactKey: Guid(84da742bd36439745a3e5bda7e7f1387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/QS/QS-Textures-Grass-v1/Textures/QS-GRASS-8.1.png using Guid(84da742bd36439745a3e5bda7e7f1387) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6f94a502f46d795d602c79cc211127e') in 0.003837858 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Texturas/QS/QS-Textures-Grass-v1/Textures/QS-GRASS-7.1.png
-  artifactKey: Guid(30915eb6d6267ed49bfb794a0e622444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/QS/QS-Textures-Grass-v1/Textures/QS-GRASS-7.1.png using Guid(30915eb6d6267ed49bfb794a0e622444) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45b1cadfb27b775d3662949b392f3ad5') in 0.003712934 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 106.158019 seconds.
-  path: Assets/Texturas/QS/QS-Textures-Grass-v1/Scenes
-  artifactKey: Guid(08460ff66a610384ba3e19aa3eaaed09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/QS/QS-Textures-Grass-v1/Scenes using Guid(08460ff66a610384ba3e19aa3eaaed09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02bf0ec72637d1f21978efdf458dd148') in 0.000277067 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.119736 seconds.
-  path: Assets/Texturas/QS/QS-Textures-Grass-v1/Documentation
-  artifactKey: Guid(edb37eef02e091b46a9ed736983f23f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/QS/QS-Textures-Grass-v1/Documentation using Guid(edb37eef02e091b46a9ed736983f23f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bdd21a8d6c945b769d9878b0b6d2905a') in 0.000294897 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 382.508036 seconds.
-  path: Assets/Texturas/ADG_Textures/ground_vol1/ground5
-  artifactKey: Guid(d1a8b78328ed6b042878b34c4c0fd018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/ADG_Textures/ground_vol1/ground5 using Guid(d1a8b78328ed6b042878b34c4c0fd018) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a94f612f3467a23365047efb93d9f1b') in 0.000283667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.106158 seconds.
-  path: Assets/Texturas/ADG_Textures/ground_vol1/ground5/ground5_Ambient_Occlusion.tga
-  artifactKey: Guid(03e262b3b2775504b8e1534cce498347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/ADG_Textures/ground_vol1/ground5/ground5_Ambient_Occlusion.tga using Guid(03e262b3b2775504b8e1534cce498347) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b961fe1114c73d78ad44eee6a1d328d8') in 0.004686326 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.031690 seconds.
-  path: Assets/Texturas/ADG_Textures/ground_vol1/ground5/ground5_Height.tga
-  artifactKey: Guid(60541731a16ad774bb3be1de36aa592f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/ADG_Textures/ground_vol1/ground5/ground5_Height.tga using Guid(60541731a16ad774bb3be1de36aa592f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e60a8b240c8d72f932e907356b7fbf40') in 0.005554757 seconds
+  Time since last request: 0.000047 seconds.
+  path: Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_BaseMap_80.png
+  artifactKey: Guid(98b634b214ed3e2428c79f81d90788eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_BaseMap_80.png using Guid(98b634b214ed3e2428c79f81d90788eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9365458877bd592caf4c40ea29b33f10') in 0.0123311 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/Texturas/ADG_Textures/ground_vol1/ground5/ground5_Normal.tga
-  artifactKey: Guid(219386670151bc542a3b2fd69819e13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/ADG_Textures/ground_vol1/ground5/ground5_Normal.tga using Guid(219386670151bc542a3b2fd69819e13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fa40fbbf4069700366a98cd7db58eec') in 0.007012094 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 62.488569 seconds.
-  path: Assets/Materials/Background.mat
-  artifactKey: Guid(02cf39f8ec82a3bc7b8b9d9e0c010359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Background.mat using Guid(02cf39f8ec82a3bc7b8b9d9e0c010359) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a903721b686a366c4aa26ceb96c79d45') in 0.00965254 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 448.707373 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Textures
-  artifactKey: Guid(5f6e8344c3218d44f8fd29234066aff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Textures using Guid(5f6e8344c3218d44f8fd29234066aff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5cee8a1d186f539e8fffa66995c2a333') in 0.000309817 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.181004 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Textures/Cave_Bush.png
-  artifactKey: Guid(f66cf91fe79cffe4bbe6a155e61e4bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Textures/Cave_Bush.png using Guid(f66cf91fe79cffe4bbe6a155e61e4bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '338eb185feec9f1ae9fd7f30ba521e22') in 0.004693073 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.029008 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Textures/Cave_GoldenPebbles.png
-  artifactKey: Guid(e63e6b5575cf91b4883ed33d002c8606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Textures/Cave_GoldenPebbles.png using Guid(e63e6b5575cf91b4883ed33d002c8606) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90b061ca85143c14f67407dece25b6ee') in 0.004154925 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.033334 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Textures/Cave_Magma.png
-  artifactKey: Guid(d028d237290dff545b1ac2636948f0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Textures/Cave_Magma.png using Guid(d028d237290dff545b1ac2636948f0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abdc95fcf03ee0514e383ffdbd4ce104') in 0.005289826 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.033119 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Textures/Desert_Bushes.png
-  artifactKey: Guid(374f043a3f99333449e20804007556c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Textures/Desert_Bushes.png using Guid(374f043a3f99333449e20804007556c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9525457e35f16cac8c7812e192e3d95') in 0.005657549 seconds
+  path: Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_BaseMap_37.png
+  artifactKey: Guid(eb7a5e07754f07b4bb2d9387147da60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_BaseMap_37.png using Guid(eb7a5e07754f07b4bb2d9387147da60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07f5fa1b9ba7d8d68bc3f5296956873f') in 0.0078677 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Textures/Desert_Tiles.png
-  artifactKey: Guid(7ff4f34c25ccd794ca7398e9f4492282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Textures/Desert_Tiles.png using Guid(7ff4f34c25ccd794ca7398e9f4492282) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5daebd4ee33b49df9838a5380a3ade0a') in 0.005091977 seconds
+  path: Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_BaseMap_79.png
+  artifactKey: Guid(4f08f15594e7b8243baa70cea60c5c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_BaseMap_79.png using Guid(4f08f15594e7b8243baa70cea60c5c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dfd54682f50974b55c23b2648a5f1276') in 0.0085938 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Textures/Winter_Hardsnow.png
-  artifactKey: Guid(fe04479d93e6897438d3c2856a88b89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Textures/Winter_Hardsnow.png using Guid(fe04479d93e6897438d3c2856a88b89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0c3dd552dd230ccf0c8b708d515f2f7') in 0.006516553 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Textures/Summer_RiverPebbles.png
-  artifactKey: Guid(0850fbb36b5346249a2687f29aa97e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Textures/Summer_RiverPebbles.png using Guid(0850fbb36b5346249a2687f29aa97e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1946322212dc0f1211c24c8b3f247faa') in 0.012112077 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Textures/Summer_CrackedRock.png
-  artifactKey: Guid(29b952018edebb44ca66eeedaa2411c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Textures/Summer_CrackedRock.png using Guid(29b952018edebb44ca66eeedaa2411c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27d77a2943bb2e3bebed0c70f7fff0d2') in 0.004561784 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Textures/WInter_Snow_Rocks.png
-  artifactKey: Guid(f4a36263be3bcb547881e084946baece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Textures/WInter_Snow_Rocks.png using Guid(f4a36263be3bcb547881e084946baece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef3abdd6c2b8f3ec21106fc5902e5046') in 0.00372135 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Textures/Cave_FireGround.png
-  artifactKey: Guid(2c3a68b4404445e44bff84d1bb91c1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Textures/Cave_FireGround.png using Guid(2c3a68b4404445e44bff84d1bb91c1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '199a0c2d4caea6e916f10e19bb4dab19') in 0.004945991 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Textures/Cave_Spores.png
-  artifactKey: Guid(9289c7337ada4bc45959b4ff82b1b784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Textures/Cave_Spores.png using Guid(9289c7337ada4bc45959b4ff82b1b784) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34222e210c04262a50fcee77b63093cc') in 0.00502417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Textures/Water_C.png
-  artifactKey: Guid(ce394c0285519a34789bd1bf7495d077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Textures/Water_C.png using Guid(ce394c0285519a34789bd1bf7495d077) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07d2e6c8b3a8184eeda4f375d0663565') in 0.005554002 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Textures/Winter_Ice_Cracked_A.png
-  artifactKey: Guid(8cba0a30a7bd0b0439ceea078f02eeef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Textures/Winter_Ice_Cracked_A.png using Guid(8cba0a30a7bd0b0439ceea078f02eeef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '870969f2daf900dffae3caa2a81b3a13') in 0.004564526 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Textures/Summer_Roses.png
-  artifactKey: Guid(330b1e96b6c1f3445ba9f4133e803a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Textures/Summer_Roses.png using Guid(330b1e96b6c1f3445ba9f4133e803a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb4277c0d4e53af03503d0e515b5b4bb') in 0.004278622 seconds
+  Time since last request: 0.000177 seconds.
+  path: Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_BaseMap_111.png
+  artifactKey: Guid(03a514e5688a8e842a27a8a224452958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_BaseMap_111.png using Guid(03a514e5688a8e842a27a8a224452958) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7d017ee9f4dc128a466a92991c16d2e') in 0.0432368 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000026 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Textures/Winter_Bush.png
-  artifactKey: Guid(3afbbf99dc4ba9847ba9e53b8942903c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Textures/Winter_Bush.png using Guid(3afbbf99dc4ba9847ba9e53b8942903c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3798ea98b52f45af0208917da05af5cd') in 0.003917901 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Textures/Winter_ChunkyIce.png
-  artifactKey: Guid(5dcef4630307f1f468484c2e9d67cf30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Textures/Winter_ChunkyIce.png using Guid(5dcef4630307f1f468484c2e9d67cf30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80d08b13decdae5ded359ad54f1a15d9') in 0.004702188 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Textures/Winter_FrozenGround.png
-  artifactKey: Guid(e2acd3ed2fb446544a34b648341c93fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Textures/Winter_FrozenGround.png using Guid(e2acd3ed2fb446544a34b648341c93fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21cb55a7b90b7c62974a27e7c9631c24') in 0.004655585 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Textures/Winter_ce_Cracked_B.png
-  artifactKey: Guid(aec36e83e2786ac41afbe9372e4e4067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Textures/Winter_ce_Cracked_B.png using Guid(aec36e83e2786ac41afbe9372e4e4067) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf7df55686163e8f8629a43348261a80') in 0.004987542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Textures/Winter_Flower.png
-  artifactKey: Guid(cc7b23b24df12264a97f682f65915163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Textures/Winter_Flower.png using Guid(cc7b23b24df12264a97f682f65915163) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c787bf267b3e59b9bfd04acc706f865') in 0.004019386 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Textures/Water_D.png
-  artifactKey: Guid(60cabeb742477d54fbe159e9061f335d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Textures/Water_D.png using Guid(60cabeb742477d54fbe159e9061f335d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e0724ffccfb1abb6f461c70807918b1') in 0.015638117 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Textures/Desert_Sand_B.png
-  artifactKey: Guid(970ad6b6e3accb640a4bb916a1034bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Textures/Desert_Sand_B.png using Guid(970ad6b6e3accb640a4bb916a1034bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0126f5b11deb07412082411f2c4ac2e') in 0.05285441 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Textures/Water_B.png
-  artifactKey: Guid(d149f4b0f0a25fa41b1eca641bda9618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Textures/Water_B.png using Guid(d149f4b0f0a25fa41b1eca641bda9618) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b539dca4fa43df917c97647f67dd0d44') in 0.020747418 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Textures/Summer_Grass_A.png
-  artifactKey: Guid(182a5f5d56040f3489e143cb041f2f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Textures/Summer_Grass_A.png using Guid(182a5f5d56040f3489e143cb041f2f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aced8afc347f1d69ee3ddbefe715686a') in 0.054734574 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Textures/Winter_Wall.png
-  artifactKey: Guid(55d9b7c24bcff144192b2c1889dbc798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Textures/Winter_Wall.png using Guid(55d9b7c24bcff144192b2c1889dbc798) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '692b2460b35d5fb2f20d6c5aa2501872') in 0.005237187 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Textures/Cave_Poison.png
-  artifactKey: Guid(bdbfd93040393854cb6e0e0af9b8d3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Textures/Cave_Poison.png using Guid(bdbfd93040393854cb6e0e0af9b8d3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b502ec0930144cfe6d0ff97127ddb13') in 0.054653374 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.328130 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Materials/Cave_Bush.mat
-  artifactKey: Guid(e9626647ac5db254d9e870edcdfd343b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Materials/Cave_Bush.mat using Guid(e9626647ac5db254d9e870edcdfd343b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0f47bc4e99f2612b3c28c218ba1b5fd') in 0.022976511 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Materials/Desert_Sand_A.mat
-  artifactKey: Guid(f112b988042d5844d86a06f124d4ea41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Materials/Desert_Sand_A.mat using Guid(f112b988042d5844d86a06f124d4ea41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e41212680940229d050e4a1435fda83b') in 0.0056678 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Materials/Summer_Grass_A.mat
-  artifactKey: Guid(fe40329174e9720479ab77410cc459ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Materials/Summer_Grass_A.mat using Guid(fe40329174e9720479ab77410cc459ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd168bcd20750cb2ee558cecefeada9f9') in 0.004516137 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Materials/Winter_Cracked_Ice_C.mat
-  artifactKey: Guid(78377f0d38e131048b6ba2db0b0d5690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Materials/Winter_Cracked_Ice_C.mat using Guid(78377f0d38e131048b6ba2db0b0d5690) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f3b09d9654ca545f3661199eee4a12d') in 0.005913028 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Materials/Summer_CrackedRock.mat
-  artifactKey: Guid(ed77080e081fcf6498c2325430f2191f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Materials/Summer_CrackedRock.mat using Guid(ed77080e081fcf6498c2325430f2191f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '646f41ad1dcc5557161dcf8df30dcb12') in 0.006614001 seconds
+  path: Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_NormalMap_79.png
+  artifactKey: Guid(04db345ddaf1e694cbff0f617c6db9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_NormalMap_79.png using Guid(04db345ddaf1e694cbff0f617c6db9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b1e3dd77dc6fcc0f5f7c6cc53cfe633') in 0.0102115 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Materials/Cave_Magma_B.mat
-  artifactKey: Guid(f70d582ac8795e94fbba81f1bda57848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Materials/Cave_Magma_B.mat using Guid(f70d582ac8795e94fbba81f1bda57848) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47e63622c16a58bbda160ddb055bf43b') in 0.004586628 seconds
+  path: Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_BaseMap_86.png
+  artifactKey: Guid(240f47faa81616b459f656eb7039667a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_BaseMap_86.png using Guid(240f47faa81616b459f656eb7039667a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2478b4021b70f080f3d1d3401a1b792') in 0.0095201 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Materials/Summer_Flowers.mat
-  artifactKey: Guid(82b3a75aca7ed6f4abe443d8019d9ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Materials/Summer_Flowers.mat using Guid(82b3a75aca7ed6f4abe443d8019d9ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '590def2f3bd3e4dfbdabd75e94f9be1f') in 0.004532621 seconds
+  Time since last request: 0.000017 seconds.
+  path: Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_NormalMap_61.png
+  artifactKey: Guid(77f97f75133a26a4c982b19a023997b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_NormalMap_61.png using Guid(77f97f75133a26a4c982b19a023997b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d4e4296e746aea5a62754576ba03088') in 0.0086807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_NormalMap_74.png
+  artifactKey: Guid(69ca505314e27d3479be9814cf25e55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_NormalMap_74.png using Guid(69ca505314e27d3479be9814cf25e55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0727324164fad32661bc404a8a4019c0') in 0.0097488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_NormalMap_37.png
+  artifactKey: Guid(bbd814240540a0f429d0844de773e2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_NormalMap_37.png using Guid(bbd814240540a0f429d0844de773e2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56fe49c9c937225e0aa7d1fd1c1c24bf') in 0.0077985 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Materials/Winter_FrozenGround.mat
-  artifactKey: Guid(5fb072cb6bfc5e343be27f17187cefae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Materials/Winter_FrozenGround.mat using Guid(5fb072cb6bfc5e343be27f17187cefae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f307c5fb6d2d794c1b37944121506ee1') in 0.005567416 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Materials/Winter_Moss.mat
-  artifactKey: Guid(d02623c81a030044cacb865f4ee28bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Materials/Winter_Moss.mat using Guid(d02623c81a030044cacb865f4ee28bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d20d1e164045bbecf67c1481a2f0a56') in 0.004269803 seconds
+  path: Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_NormalMap_104.png
+  artifactKey: Guid(3be49647e5c4de34f860ecd6ef3cca4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_NormalMap_104.png using Guid(3be49647e5c4de34f860ecd6ef3cca4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8dc8f170b04addabdb9435dc8294dea5') in 0.0087252 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Materials/WInter_Snow_Rocks.mat
-  artifactKey: Guid(a080f7b6b977d1d478336b9f12f52fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Materials/WInter_Snow_Rocks.mat using Guid(a080f7b6b977d1d478336b9f12f52fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a83bf36149825bf35eaa81c127b0bf7') in 0.005813656 seconds
+  path: Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_NormalMap_132.png
+  artifactKey: Guid(8369aa7790bc9e34b8d0619c4ba73813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_NormalMap_132.png using Guid(8369aa7790bc9e34b8d0619c4ba73813) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '427594427e2c7010bd1638bcef6607ed') in 0.0075971 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Materials/Cave_Magma.mat
-  artifactKey: Guid(520938bf13624b04fb159c3db7351aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Materials/Cave_Magma.mat using Guid(520938bf13624b04fb159c3db7351aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae69ff2643d37377153f4c3e98fade7d') in 0.005038102 seconds
+  path: Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_NormalMap_93.png
+  artifactKey: Guid(8c09f635edc324349a9ce6f5a4276b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_NormalMap_93.png using Guid(8c09f635edc324349a9ce6f5a4276b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '661f1abb8f196382295e50aac180b9c8') in 0.0068072 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Materials/Winter_Snow_B.mat
-  artifactKey: Guid(00494841d457c5e40beb347b6483f7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Materials/Winter_Snow_B.mat using Guid(00494841d457c5e40beb347b6483f7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e8d4b1810c2d814a33609de94981c40f') in 0.004777038 seconds
+  Time since last request: 0.000025 seconds.
+  path: Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_NormalMap_111.png
+  artifactKey: Guid(0a0833d912cb8bc4aab4d14846680b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_NormalMap_111.png using Guid(0a0833d912cb8bc4aab4d14846680b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3d83e83b8467124bfa428aa4bdd0984') in 0.0103716 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Materials/Winter_ce_Cracked_B.mat
-  artifactKey: Guid(082b415688deccc41961d7655a19de0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Materials/Winter_ce_Cracked_B.mat using Guid(082b415688deccc41961d7655a19de0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dfab114d70ed4f1ea0b4081a2a62803e') in 0.004595219 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Materials/Cave_LavaRocks_A.mat
-  artifactKey: Guid(f4dcba098a2788048a77363897d1a6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Materials/Cave_LavaRocks_A.mat using Guid(f4dcba098a2788048a77363897d1a6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a3d3fe43f11fa1c64b6158847faf708') in 0.004288472 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Materials/Water_D.mat
-  artifactKey: Guid(3584c50ec7d45f348a5aa57d24bb5737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Materials/Water_D.mat using Guid(3584c50ec7d45f348a5aa57d24bb5737) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9cf97aaf98ef9b8a6e27d35d4dcab473') in 0.004691974 seconds
+  Time since last request: 0.000036 seconds.
+  path: Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_NormalMap_94.png
+  artifactKey: Guid(45975287f5b7aaf42ba1c52de0a348e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_NormalMap_94.png using Guid(45975287f5b7aaf42ba1c52de0a348e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '842a521818402bf12fd745b705927172') in 0.0076694 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Materials/Summer_Roses.mat
-  artifactKey: Guid(363270fb71ae7aa45ac7c91408bbe012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Materials/Summer_Roses.mat using Guid(363270fb71ae7aa45ac7c91408bbe012) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7817a295a9c90619ac55869356cab460') in 0.004119534 seconds
+  path: Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_NormalMap_41.png
+  artifactKey: Guid(03a498acf4dbad6419bd455ba0637fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_NormalMap_41.png using Guid(03a498acf4dbad6419bd455ba0637fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c621dc8b6668bf1e4d391932d752cad1') in 0.0089523 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Materials/Desert_Tiles.mat
-  artifactKey: Guid(0420eef65a9103241abca4e53c4d74bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Materials/Desert_Tiles.mat using Guid(0420eef65a9103241abca4e53c4d74bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4305c3f07f369582e0990b454bc49b38') in 0.005049647 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Materials/Winter_IceCliff.mat
-  artifactKey: Guid(41b973d990ff1c748a4f9a7c29998342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Materials/Winter_IceCliff.mat using Guid(41b973d990ff1c748a4f9a7c29998342) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7cc3f59c1fffdfecb93d8e014146199') in 0.005884464 seconds
+  Time since last request: 0.000021 seconds.
+  path: Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_NormalMap_68.png
+  artifactKey: Guid(5e39f2f558a55f54d8000d44ab6a4402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_NormalMap_68.png using Guid(5e39f2f558a55f54d8000d44ab6a4402) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62a78bd3104841c99d8743ab14b89c33') in 0.0105441 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Materials/Summer_Roots.mat
-  artifactKey: Guid(2a81fb5b4c7ffd34a86add061bd2f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Materials/Summer_Roots.mat using Guid(2a81fb5b4c7ffd34a86add061bd2f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e951e177d78ec1d4989124262263b634') in 0.004638734 seconds
+  path: Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_NormalMap_23.png
+  artifactKey: Guid(d2af19ecc9ad8434a8f08c3a2ef491ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_NormalMap_23.png using Guid(d2af19ecc9ad8434a8f08c3a2ef491ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '851365d98d1c3b3c3880a4ca43b36366') in 0.00986 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_BaseMap_135.png
+  artifactKey: Guid(9f001ea76be3f2a48a34a43ec7b37cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_BaseMap_135.png using Guid(9f001ea76be3f2a48a34a43ec7b37cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5fb90fc1013517011ab7c28d1308fc1') in 0.0089674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_NormalMap_1.png
+  artifactKey: Guid(85d1dccc834fd6148a7592765ce948d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_NormalMap_1.png using Guid(85d1dccc834fd6148a7592765ce948d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbd918e2cdc682e48cdf4133fbb38883') in 0.0089599 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Materials/Summer_Mud_A.mat
-  artifactKey: Guid(a272687875e64684daa5f944e711872d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Materials/Summer_Mud_A.mat using Guid(a272687875e64684daa5f944e711872d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c94be78b1584001b744c8c2339a9eed') in 0.005396902 seconds
+  path: Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_NormalMap_116.png
+  artifactKey: Guid(9bb95590f1ebcf246b839a951bcdd577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_NormalMap_116.png using Guid(9bb95590f1ebcf246b839a951bcdd577) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96afa43636c467daf8766f1c9a7253da') in 0.0110456 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Materials/Desert_Sand.mat
-  artifactKey: Guid(3b85b3f360cf9ec43bec0706d0a03147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Materials/Desert_Sand.mat using Guid(3b85b3f360cf9ec43bec0706d0a03147) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4fde48d1077e8b0df265179a2c201059') in 0.004828711 seconds
+  Time since last request: 0.000019 seconds.
+  path: Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_BaseMap_74.png
+  artifactKey: Guid(d76c63d5df35e164f8372677f54c8106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rolling_Balls-Sci-fi_Pack/Rolling_Balls-Sci-fi_Pack_SRP_Build/Textures/RollingBalls_Sci-fi_BaseMap_74.png using Guid(d76c63d5df35e164f8372677f54c8106) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e4d36913f0d1a0ec3eff3dcefab9f69') in 0.0084582 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Texturas/Flat Textures Pack/Materials/Summer_Mud_B.mat
-  artifactKey: Guid(b4ce1486c4e3c83408feacc4d7497b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Flat Textures Pack/Materials/Summer_Mud_B.mat using Guid(b4ce1486c4e3c83408feacc4d7497b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5f130d31da09a89251cd500af9fd43c') in 0.004357718 seconds
+  Time since last request: 6.909261 seconds.
+  path: Assets/Materials/DynamicBox.mat
+  artifactKey: Guid(15864b5c23f550b60ba2780b3dc4c6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/DynamicBox.mat using Guid(15864b5c23f550b60ba2780b3dc4c6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5495c0db334fdcf7821b34d7a4e0cb3') in 6.6921355 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Materials/PickUp.mat
+  artifactKey: Guid(3fa3936af826c3b6c9925b64a80e0231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PickUp.mat using Guid(3fa3936af826c3b6c9925b64a80e0231) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca1bcd0b0eba1f904aad9694bc83a43c') in 0.0220977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Materials/Player.mat
+  artifactKey: Guid(5c399100bf966f8299448012253e6a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Player.mat using Guid(5c399100bf966f8299448012253e6a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '374678b88178a9ffc89e47a40bfaf3a6') in 0.0213757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Materials/Wall.mat
+  artifactKey: Guid(34600c40cdedb3067a856ad89bfbdda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Wall.mat using Guid(34600c40cdedb3067a856ad89bfbdda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9458d0443a5cf8719d16ef4f79b58c7f') in 0.0213667 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
-
-SDL leaked 2 allocations
-Internal: Possible leak. All render target surfaces should be removed from IdMap when destructed using RenderTargetMap::Remove(RenderSurfaceBase* rs).
+Exiting without the bug reporter. Application will terminate with return code 0
